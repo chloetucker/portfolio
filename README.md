@@ -9,3 +9,4 @@ My philosopy with this project was to create something clean, timeless, and easy
 - Complete the WCAG Accessibility checklist
 - Add favicon
 - Play with link preview images
+- Make project and code link buttons all one solid border color, more thin, and close to the width of the container
