@@ -10,3 +10,4 @@ My philosopy with this project was to create something clean, timeless, and easy
 - Add favicon
 - Play with link preview images
 - Make project and code link buttons all one solid border color, more thin, and close to the width of the container
+- Make first section 100vw (height of viewport)
