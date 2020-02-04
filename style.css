@@ -89,7 +89,7 @@ body {
     margin: 10px;
     border-radius: 10px;
     background-color: #fff;
-    padding: 15px;
+    padding: 20px;
     font-weight: 300;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .3)
 }
@@ -112,14 +112,15 @@ body {
 
 .project-button {
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: .8rem;
     border-color: #360092;
     border-radius: 5px;
-    text-transform: lowercase;
-    width: 100%;
+    text-transform: uppercase;
+    width: 200px;
     background-color: white;
     margin-top: 10px;
+    padding: 5px;
 }
 
 .project-button a {
@@ -143,6 +144,7 @@ body {
 .project-language {
     font-size: .8rem;
     text-align: center;
+    text-transform: uppercase;
     margin: 10px;
     font-weight: 300;
 }
