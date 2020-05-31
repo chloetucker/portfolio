@@ -3,8 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="This is Chloe Tucker's creative UI engineer portfolio.">
+    <meta name="description" content="Chloe Tucker's creative coding portfolio.">
+    <meta name="keywords" content="Chloe Tucker, Chloe Tucker Coding">    
     <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Chloe Tucker" />
+    <meta property="og:description" content="Chloe Tucker's creative coding portfolio" />
+    <meta property="og:url" content="https://www.portfolio.chloe.dev/" />
+    <meta property="og:image" content="img/music.svg" />
+    <meta property="og:image:type" content="image/svg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Bootstrap -->
@@ -13,7 +21,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <title>Chloe Tucker's Creative UI Engineer Portfolio</title>
+    <title>Chloe Tucker's Creative Coding Portfolio</title>
 </head>
 
 <body>
@@ -22,17 +30,17 @@
         <section id="intro">
             <div id="intro">
                 <div id="intro">
-                    <img class="intro-icon" src="img/code.svg">
+                    <img class="intro-icon" src="img/code.svg" alt="Coding symbol">
                 </div>
                 <p class="intro">Hi! I'm Chloe Tucker</p>
                 <p class="intro-subtitle">coding | design | simplicity</p>
             </div>
             <div id="graphic">
-                <img src="img/instruments.svg" class="graphic">
+                <img src="img/instruments.svg" class="graphic" alt="Graphic of instruments">
             </div>
             <div id="continue">
                 <div class="down-arrow">
-                <a href="#projects"><img class="buttons-icon" src="img/arrow-down.svg"></a></div>
+                    <a href="#projects"><img class="buttons-icon" src="img/arrow-down.svg" alt="down arrow symbol"></a></div>
             </div>
         </section>
         <!-- Intro section ends -->
@@ -40,31 +48,50 @@
         <!-- Projects section start -->
         <section id="center">
             <section id="projects">
+                <!-- Old projects start
                 <div class="project">
-                    <p class="project-title">User Survey</p>
+                    <p class="project-title">Survey Form</p>
                     <p class="project-emoji"><img class="buttons-icon" src="img/message-square.svg"></p>
                     <p class="project-description">This was my first front end project - I wanted it to have some character and be a little more challenging design-wise. It is a tongue-in-cheek survey intended for owners of the Samsung Galaxy Note 7 (the phone that was prone to exploding). It is intended to somewhat look like the phone. It is not mobile responsive, ironically enough. The skeumorphism is limited, but heartfelt.</p>
                     <p class="project-language">HTML  |  CSS</p>
                     <a href="https://chloetucker.github.io/fcc-surveyform/" target="_blank"><button class="project-button">View Project</button></a>
                     <a href="https://github.com/chloetucker/fcc-surveyform" target="_blank"><button class="project-button">View Code</button></a>
-
+                </div>  
+                <div class="project">
+                    <p class="project-title">Tek-dox</p>
+                    <p class="project-emoji"><img class="buttons-icon" src="img/book-open.svg"></p>
+                    <p class="project-description">This is an MVP - a minimally viable project. This approach took a lot of effort because I deviated from my usual sit-there-and-tinker approach. I completed the requirements, made it look only somewhat tolerable, and moved on. I did this because I'm aware that, in the real world, things move quickly and I will have to do this sometimes. I love the name "Tek-Dox" because it sounds very '90s.</p>
+                    <p class="project-language">HTML | CSS</p>
+                    <a href="https://chloetucker.github.io/fcc-technicaldocpage/" target="_blank"><button class="project-button">View Project</button></a>
+                    <a href="https://github.com/chloetucker/fcc-technicaldocpage" target="_blank"><button class="project-button">View Code</button></a>
+                </div>                
+                Old projects end -->
+                <!-- Current projects start-->
+                <div class="project">
+                    <p class="project-title">Mindfull World</p>
+                    <p class="project-emoji"><img class="buttons-icon" src="img/heart.svg" alt="Heart symbol"></p>
+                    <p class="project-description">This project started as a CSS loader experiment and quickly grew beyond those bounds. It is part mindfulness (breath and movement) aid, part experiment in design. In breathe and move, the geometry of the concentric shapes is based on the golden ratio, one of my favorite mathematical concepts. This was also my first project with Javascript - just the buttons, but it counts!</p>
+                    <p class="project-language">HTML | CSS | Javascript</p>
+                    <a href="https://mindfull.world" target="_blank"><button class="project-button">View Project</button></a>
+                    <a href="https://github.com/chloetucker/breathe" target="_blank"><button class="project-button">View Code</button></a>
                 </div>
                 <div class="project">
                     <p class="project-title">Zoomtunes</p>
-                    <p class="project-emoji"><img class="buttons-icon" src="img/music.svg"></p>
+                    <p class="project-emoji"><img class="buttons-icon" src="img/music.svg" alt="Musical note symbol"></p>
                     <p class="project-description">This landing page is for a concept product called Zoomtunes, a practice aid for musicians. This project involved a substantial amount of non-coding work: I created the concept, designed the logo, sourced the background from Canva, and went through an iterative wire-framing process. My goal was to use color, shape, and space to create a sense of friendliness and kinetic energy.</p>
-                    <p class="project-language">HTML  |  CSS</p>
+                    <p class="project-language">HTML | CSS</p>
                     <a href="https://chloetucker.github.io/fcc-productlandingpage/" target="_blank"><button class="project-button">View Project</button></a>
                     <a href="https://github.com/chloetucker/fcc-productlandingpage" target="_blank"><button class="project-button">View Code</button></a>
                 </div>
                 <div class="project">
-                    <p class="project-title">Tek-dox</p>
-                    <p class="project-emoji"><img class="buttons-icon" src="img/book-open.svg"></p>
-                    <p class="project-description">This is an MVP - a minimally viable project. This approach took a lot of effort because I deviated from my usual sit-there-and-tinker approach. I completed the requirements, made it look only somewhat tolerable, and moved on. I did this because I'm aware that, in the real world, things move quickly and I will have to do this sometimes. I love the name "Tek-Dox" because it sounds so '90s.</p>
-                    <p class="project-language">HTML  |  CSS</p>
-                    <a href="https://chloetucker.github.io/fcc-technicaldocpage/" target="_blank"><button class="project-button">View Project</button></a>
-                    <a href="https://github.com/chloetucker/fcc-technicaldocpage" target="_blank"><button class="project-button">View Code</button></a>
+                    <p class="project-title">Playfull World</p>
+                    <p class="project-emoji"><img class="buttons-icon" src="img/lightbulb--c.svg" alt="Lightbulb symbol"></p>
+                    <p class="project-description">This website is a dedicated place for me to play around with things that I learn and don't want to devote an entire website or project to. Each section is a self-contained experiment. I specifically created it before I started learning Javascript. This was the first project I used Bootstrap for, and it was a huge time-saver; it took about two hours to build, and another several hours tweaking the UI.</p>
+                    <p class="project-language">HTML | CSS | Bootstrap</p>
+                    <a href="https://playfull.world" target="_blank"><button class="project-button">View Project</button></a>
+                    <a href="https://github.com/chloetucker/playground" target="_blank"><button class="project-button">View Code</button></a>
                 </div>
+                <!-- Current projects end-->
             </section>
         </section>
         <!-- Projects section end -->
@@ -73,18 +100,44 @@
 
         <section id="connect">
             <div class="connect">
-                <a href="https://github.com/chloetucker" target="_blank"><button class="buttons"><img class="buttons-icon" src="img/github.svg"></button></a>
-                <a href="mailto: chloe.tucker977@gmail.com" target="_blank"><button class="buttons"><img class="buttons-icon" src="img/mail.svg"></button></a>
-                <a href="https://www.linkedin.com/in/chloetucker/" target="_blank"><button class="buttons"><img class="buttons-icon" src="img/linkedin.svg"></button></a>
+                <a href="https://github.com/chloetucker" target="_blank"><button class="buttons"><img class="buttons-icon" src="img/github.svg" alt="Github logo"></button></a>
+                <a href="mailto: chloe.tucker977@gmail.com" target="_blank"><button class="buttons"><img class="buttons-icon" src="img/mail.svg"  alt="Email message symbol"></button></a>
+                <a href="https://www.linkedin.com/in/chloetucker/" target="_blank"><button class="buttons"><img class="buttons-icon" src="img/linkedin.svg"  alt="Linkedin logo"></button></a>
             </div>
         </section>
         <!-- Footer section start -->
         <section id="footer">
             <div id="footer">
-                <a href="#intro"><img class="buttons-icon" src="img/arrow-up.svg"></a>
+                <a href="#intro"><img class="buttons-icon" src="img/arrow-up.svg" alt="Up arrow"></a>
             </div>
         </section>
         <!-- Footer section end -->
     </div>
+
+
+    <!-- User analytics script start -->
+    <script type="text/javascript">
+        var _paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setCookieDomain", "*.chloe.dev"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u = "https://analit.daatik.com/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '5']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'matomo.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+
+    </script>
+    <!-- User analytics script end -->
+
 
 </body>

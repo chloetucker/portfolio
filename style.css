@@ -1,4 +1,4 @@
-/* global stylings - color formerly ##=360092 */
+/* global stylings */
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,77&display=swap');
 
@@ -9,7 +9,7 @@ html,body {
     scroll-behavior: smooth;
 }
 
-/* page stylings */
+/* Page stylings */
 
 #page-wrapper {
     width: 100%;
@@ -17,13 +17,13 @@ html,body {
     margin-top: 50px;       
 }
 
-/*all buttons stylings */
+/* Button stylings */
 
 .buttons-icon {
     height: 40px;
 }
 
-/* intro section stylings - ids then classes*/
+/* Intro section stylings - ids then classes */
 
 #intro {
     order: 1;
@@ -52,7 +52,7 @@ html,body {
     margin-bottom: 100px;    
 }
 
-/* graphic/down arrow stylings - ids then classes */
+/* Graphics and down arrow stylings - ids then classes */
 
 #graphic {
     order: 2;
@@ -71,7 +71,7 @@ html,body {
     max-width: 850px;
 }
 
-/*projects section stylings - ids, classes, then @media queries */ 
+/* Projects section stylings - ids, classes, then @media queries */ 
 
 #projects {
     margin-top: 60px;
@@ -161,7 +161,7 @@ html,body {
     }
 }
 
-/*connect section stylings - ids then classes */
+/* Connect section stylings - ids then classes */
 
 #connect {
     order: 5;        
@@ -211,7 +211,7 @@ html,body {
     }
 }
     
-/*footer section stylings - ids then classes */
+/* Footer section stylings - ids then classes */
 
 #footer {
     order: 6;
