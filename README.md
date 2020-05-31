@@ -6,8 +6,5 @@ This is a simple, clean website for showcasing no more than 3 projects. Any more
 My philosopy with this project was to create something clean, timeless, and easy to interact with as the user and as any future modifier of the code.
 
 ## Ideas to Improve
-- Complete the WCAG Accessibility checklist
 - Add favicon
-- Play with link preview images
-- Make project and code link buttons all one solid border color, more thin, and close to the width of the container
-- Make first section 100vw (height of viewport)
+- Play with link preview image
